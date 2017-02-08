@@ -1,0 +1,5 @@
+.fitrc
+.idea
+*.iml
+k8s-service-watcher
+*.exe
