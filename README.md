@@ -1,7 +1,8 @@
 Kubernetes services watcher 
 =================================
 
-[![Circle CI]()
+[Circle CI](https://circleci.com/gh/Financial-Times/k8s-service-watcher)
+[Dockerhub](https://hub.docker.com/r/coco/k8s-service-watcher/)
 
 Sample code for watching Kubernetes events when services are created and removed.
 
