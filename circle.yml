@@ -1,0 +1,13 @@
+## Customize dependencies
+dependencies:
+  override:
+    # do not get recursively
+    - go get -t -d -v .
+    - go build -v
+
+## Customize test commands
+test:
+  override:
+    # do not "test" recursively
+    - go test -v -race .
+
